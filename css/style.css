@@ -1,0 +1,16 @@
+body {
+	margin: 0px;
+}
+#header{
+	padding: 15px;
+	color: #FFFFFF;
+	background-color: #CB0000;
+	font-family: "Arial", serif; 
+	font-size: 32px;
+	font-weight:bold;
+}
+
+#content {
+	font-family: "Arial", serif; 
+	padding: 20px;
+}
