@@ -1,0 +1,13 @@
+#img-home {
+    margin:0px auto 0px auto;
+    width: 950px;
+}
+
+#img-home img {
+    display: inline-block;
+}
+
+#footer-home {
+    margin:20px auto 0px auto;
+    width: 940px;
+}

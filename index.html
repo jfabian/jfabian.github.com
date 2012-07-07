@@ -1,96 +1,110 @@
 <!DOCTYPE html>
-
 <head>
     <title>Jesus Fabian Cubas</title>
     <meta http-equiv="content-type" content="text/html;charset=utf-8" />
     <meta name="Description" content="Jesus Fabian Cubas" />
-    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/bootstrap-responsive.min.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
     <!--[if lt IE 9]>
         <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    <link rel="stylesheet" href="http://twitter.github.com/bootstrap/1.4.0/bootstrap.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script src="js/bootstrap-alert.js" type="text/javascript"></script>
+    <script src="js/bootstrap-carousel.js" type="text/javascript"></script>
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <script type="text/javascript">
+        $(function(){
+            $('.carousel').carousel();
+        })
+    </script>
 </head>
 <body>
-    <header>
-        <div class="topbar-wrapper" style="z-index: 5;">
-            <div class="topbar" data-dropdown="dropdown" >
-                <div class="topbar-inner">
-                    <div class="container">
-                        <h3><a href="./">Jesus Fabian Cubas</a></h3>
-                        <ul class="nav">
-                            <li><a href="presentaciones.html">Presentaciones</a></li>
-                            <li><a href="proyectos.html">Proyectos</a></li>
-                            <!--li><a href="#">Tutoriales</a></li>
-                            <li><a href="#">Articulos</a></li-->
-                        </ul>
-                        <ul class="nav secondary-nav">
-                            <li><a href="http://twitter.com/jfabianpe" target="_blank" >@jfabianpe</a>
-                        </ul>
+    <div class="navbar navbar-fixed-top">
+        <div class="navbar-inner">
+            <div class="container">
+                <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </a>
+                <a class="brand" href="#">Jesus Fabian Cubas</a>
+                <div class="nav-collapse">
+                    <ul class="nav">
+                        <li><a href="presentaciones.html">Presentaciones</a></li>
+                        <li><a href="proyectos.html">Proyectos</a></li>
+                    </ul>
+                </div><!--/.nav-collapse -->
+            </div>
+        </div>
+    </div>  
+    <div class="container">
+        <br><br><br>
+        <h1>Desarollador Open Source <small>investigador y viajero.</small></h1>
+        <div class="alert alert-success">
+            <button type="button" class="close" data-dismiss="alert">×</button>
+            <strong>Investigacion.</strong> Empaquetando paquetes para Arch.
+        </div>
+        <div id="img-home" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img class="thumbnail" src="images/body.png" alt="" width="940px" >
+                    <div class="carousel-caption">
+                        <h4></h4>
+                        <p>render()</p>
                     </div>
                 </div>
             </div>
         </div>
-    </header>
-    <div class="container">
-        <br><br><br>
-        <h1>Desarollador Open Source <small>investigador y viajero.</small></h1>
-        <div class="alert-message success">
-            <p><strong>Investigacion.</strong> Trabajando poco a poco en el Fablab.</p>
-        </div>
-        <ul class="media-grid">
-            <li>
-                <a href="#">
-                    <img class="thumbnail" src="images/body.png" alt="" width="900px">
+        <div id="footer-home">
+            <h5>Uso comunmente...</h5>
+            <ul class="thumbnails">
+                <li>
+                <a href="http://python.org/" target="_blank">
+                    <img class="" alt="Python" src="http://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Python_logo.svg/110px-Python_logo.svg.png" height="32px">
                 </a>
-            </li>
-        </ul>
-        <h5>Uso comunmente...</h5>
-        <ul class="media-grid">
-            <li>
-            <a href="#">
-                <img class="thumbnail" alt="Python" src="http://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Python_logo.svg/110px-Python_logo.svg.png" height="32px">
-            </a>
-            </li>
-            <li>
-            <a href="#">
-                <img class="thumbnail" alt="Ruby" src="http://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Ruby_logo.svg/32px-Ruby_logo.svg.png" height="32px">
-            </a>
-            </li>
-            <li>
-            <a href="#">
-                <img class="thumbnail" alt="PHP" src="http://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/60px-PHP-logo.svg.png" height="32px">
-            </a>
-            </li>
-            <li>
-            <a href="#">
-                <img class="thumbnail" alt="Mono Project" src="http://upload.wikimedia.org/wikipedia/en/thumb/b/b4/Mono_project_logo.svg/27px-Mono_project_logo.svg.png" height="32px">
-            </a>
-            </li>
-            <li>
-            <a href="#">
-                <img class="thumbnail" alt="Fedora" src="http://upload.wikimedia.org/wikipedia/commons/thumb/8/85/ArchlinuxLogo.png/100px-ArchlinuxLogo.png" height="32px">
-            </a>
-            </li>
-            <li>
-            <a href="#">
-                <img class="thumbnail" alt="MySQL" src="http://upload.wikimedia.org/wikipedia/en/thumb/6/62/MySQL.svg/61px-MySQL.svg.png" height="32px">
-            </a>
-            </li>
-            <li>
-            <a href="#">
-                <img class="thumbnail" alt="Github" src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/GitHub.svg/73px-GitHub.svg.png" height="32px">
-            </a>
-            </li>
-            <li>
-            <a href="#">
-                <img class="thumbnail" alt="Drupal" src="http://upload.wikimedia.org/wikipedia/en/thumb/c/c1/Drupal-wordmark.svg/121px-Drupal-wordmark.svg.png" height="32px">
-            </a>
-            </li>
-            <li>
-            <a href="#">
-                <img class="thumbnail" alt="Thinkpad" src="http://upload.wikimedia.org/wikipedia/en/thumb/0/09/ThinkPad_Logo.svg/83px-ThinkPad_Logo.svg.png" height="32px">
-            </a>
-            </li>
+                </li>
+                <li>
+                <a href="http://www.ruby-lang.org/es/" target="_blank">
+                    <img class="" alt="Ruby" src="http://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Ruby_logo.svg/32px-Ruby_logo.svg.png" height="32px">
+                </a>
+                </li>
+                <li>
+                <a href="http://php.net/" target="_blank">
+                    <img class="" alt="PHP" src="http://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/60px-PHP-logo.svg.png" height="32px">
+                </a>
+                </li>
+                <li>
+                <a href="http://www.mono-project.com/" target="_blank">
+                    <img class="" alt="Mono Project" src="http://upload.wikimedia.org/wikipedia/en/thumb/b/b4/Mono_project_logo.svg/27px-Mono_project_logo.svg.png" height="32px">
+                </a>
+                </li>
+                <li>
+                <a href="http://www.archlinux.org/" target="_blank">
+                    <img class="" alt="Arch Linux" src="http://upload.wikimedia.org/wikipedia/commons/thumb/8/85/ArchlinuxLogo.png/100px-ArchlinuxLogo.png" height="32px">
+                </a>
+                </li>
+                <li>
+                <a href="http://www.mysql.com/" target="_blank">
+                    <img class="" alt="MySQL" src="http://upload.wikimedia.org/wikipedia/en/thumb/6/62/MySQL.svg/61px-MySQL.svg.png" height="32px">
+                </a>
+                </li>
+                <li>
+                <a href="http://github.com/" target="_blank">
+                    <img class="" alt="Github" src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/GitHub.svg/73px-GitHub.svg.png" height="32px">
+                </a>
+                </li>
+                <li>
+                <a href="http://drupal.org/" target="_blank">
+                    <img class="" alt="Drupal" src="http://upload.wikimedia.org/wikipedia/en/thumb/c/c1/Drupal-wordmark.svg/121px-Drupal-wordmark.svg.png" height="32px">
+                </a>
+                </li>
+                <li>
+                <a href="#">
+                    <img class="" alt="Thinkpad" src="http://upload.wikimedia.org/wikipedia/en/thumb/0/09/ThinkPad_Logo.svg/83px-ThinkPad_Logo.svg.png" height="32px">
+                </a>
+                </li>
+            </ul>
         </div>
     </div>
 </body>
